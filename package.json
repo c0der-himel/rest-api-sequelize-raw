@@ -1,0 +1,33 @@
+{
+  "name": "rest-api-sequelize-raw",
+  "version": "1.0.0",
+  "description": "RESTful API using raw NodeJS & PostgreSQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c0der-himel/rest-api-sequelize-raw.git"
+  },
+  "keywords": [
+    "nodejs",
+    "postgresql"
+  ],
+  "author": "himel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/c0der-himel/rest-api-sequelize-raw/issues"
+  },
+  "homepage": "https://github.com/c0der-himel/rest-api-sequelize-raw#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2"
+  }
+}
